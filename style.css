@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #252525;
     color: white;
@@ -37,6 +41,11 @@ ul li{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .logo{
     width: 250px;
 }
@@ -65,8 +74,16 @@ ul li{
     width: 360px;
 }
 
-.subtit{
+.proyecto-center{
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contacto-center{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .left{
@@ -133,3 +150,79 @@ form{
     cursor: pointer;
 }
 
+svg{
+    cursor: pointer;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.images-flex{
+    display: flex;
+    place-items: center;
+    margin-left: 40px;
+    position: relative;
+    left: 10px;
+}
+
+.carousel-item, .active{
+    padding-bottom: 15px;
+}
+
+.carousel-indicators{
+    margin: auto;
+}
+
+.carousel-control-prev-icon{
+    position: absolute;
+    left: 25px;
+}
+
+.carousel-control-next-icon{
+    position: absolute;
+    right: 25px;
+}
+
+
+@media (min-width: 380px) and (max-width: 1023px) {
+    .informacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d-block .w-50{
+        width: 40%;
+        height: 25%;
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media (min-width: 380px) and (max-width: 600px) {
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .par-1{
+        font-size: larger;
+        text-align: center;
+    }
+    .foto{
+        display: flex;
+        align-self: center;
+    }
+}
