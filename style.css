@@ -205,6 +205,16 @@ svg{
         align-items: center;
     }
 
+    
+
+    .carousel-control-prev-icon{
+        display: none;
+    }
+
+    .carousel-control-next-icon{
+        display: none;
+    }
+
 
 }
 
@@ -224,5 +234,14 @@ svg{
     .foto{
         display: flex;
         align-self: center;
+    }
+
+    .images-flex{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: none;
+    }
+    .image-3{
+        display: none;
     }
 }
