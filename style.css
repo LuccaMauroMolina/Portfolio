@@ -244,4 +244,8 @@ svg{
     .image-3{
         display: none;
     }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
 }
