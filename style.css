@@ -228,7 +228,7 @@ svg{
         text-align: center;
     }
     .par-1{
-        font-size: larger;
+        font-size: small;
         text-align: center;
     }
     .foto{
@@ -240,6 +240,7 @@ svg{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: none;
+        transform: translateX(-25px);
     }
     .image-3{
         display: none;
